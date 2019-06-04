@@ -14,7 +14,8 @@ export default {
       { hid: 'description', name: 'description', content: 'An affordable one-stream conference for juniors on skills needed for a happy, healthy work life.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://rsms.me/inter/inter-ui.css' }
     ]
   },
 
