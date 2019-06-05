@@ -116,4 +116,15 @@ export default {
     border-radius: 4px;
   }
 }
+@media screen and (max-width: 800px) {
+  .tiles {
+    columns: 1;
+  }
+  .tile.vid iframe {
+    height: 54vw;
+  }
+  .tile.text h2 {
+    font-size: 1.25em;
+  }
+}
 </style>

@@ -114,4 +114,12 @@
     margin-bottom: 4em;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .scholarships .types,
+  #page ul.other {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+}
 </style>

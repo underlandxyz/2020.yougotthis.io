@@ -35,6 +35,20 @@ footer {
     input[type=submit] {
       background: white;
     }
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      label, input {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      label {
+        text-align: center;
+      }
+      input {
+        margin-top: 1em;
+      }
+    }
   }
 }
 </style>

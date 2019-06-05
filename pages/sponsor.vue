@@ -76,11 +76,15 @@
       <div class="custom">
         <p>Our sponsorship packages and additional sponsorship opportunities are indications of what we can do, however nothing is set in stone. We’re happy to chat about custom packages or creating custom perks for BASH Festival.</p>
       </div>
+      <p>If you have any questions, or wish to discuss sponsorship, please feel free to reach out at <a href="mailto:ygt@underland.events">ygt@underland.events</a> or by phone at +44 7492 886145.</p>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+#title + h2 {
+  font-size: 1.25em;
+}
 #page {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -138,6 +142,19 @@
   margin-bottom: 2em;
   p {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #page {
+    .why,
+    .sponsorship > ul {
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+    }
+    .sponsorship > ul {
+      margin-top: 2em;
+    }
   }
 }
 </style>

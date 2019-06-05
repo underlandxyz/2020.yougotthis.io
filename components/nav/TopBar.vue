@@ -25,7 +25,7 @@
     margin-left: 1em;
     text-decoration: none;
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 }

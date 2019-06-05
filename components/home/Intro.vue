@@ -36,4 +36,15 @@ h2 {
     text-align: center;
   }
 }
+@media screen and (max-width: 600px) {
+  .roles {
+    grid-template-columns: 1fr;
+    img {
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
 </style>

@@ -2,14 +2,18 @@
   <div id='header-navigation'>
     <nav>
       <n-link to='/' class='brand'>
-        <h1>You Got This</h1>
+        <h1>You Got This!</h1>
       </n-link>
       <div class="inner">
         <n-link v-for='link in nav' :key='link.path' :to='link.path' :class='link.class'>{{link.text}}</n-link>
       </div>
     </nav>
-    <n-link to='/tickets' class="cta btn apply">Submit a talk</n-link>
-    <!-- <div id="mob-menu" @click='menuToggle'>Menu <i class="fa fa-bars"></i></div> -->
+    <!-- <n-link to='/talk' class="cta btn apply">Submit a talk</n-link> -->
+    <div id="mob-menu">
+      <nav>
+        <n-link v-for='link in mobNav' :key='link.path' :to='link.path'>{{link.text}}</n-link>
+      </nav>
+    </div>
   </div>
 </template>
 
@@ -24,6 +28,12 @@ export default {
         { text: 'Inclusion Programme', path: '/inclusion', class:'minor' },
         // { text: 'Food', path: '/food', class:'bold' },
         { text: 'Code of Conduct', path: '/conduct', class:'minor' }
+      ],
+      mobNav: [
+        { text: 'Inclusion', path: '/inclusion' },
+        // { text: 'Conduct', path: '/conduct' },
+        // { text: 'Sponsor', path: '/sponsor' },
+        // { text: 'Submit a talk', path: '/talk' }
       ]
     }
   }
@@ -58,9 +68,6 @@ export default {
         text-transform: uppercase;
         font-weight: bold;
       }
-      &.minor {
-        // padding-right: 0;
-      }
     }
     .inner .nuxt-link-active {
       border-bottom-color: var(--theme-dark);
@@ -79,10 +86,16 @@ export default {
   #mob-menu {
     display: none;
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     .inner,
     .cta {
       display: none;
+    }
+    #mob-menu {
+      display: block;
+      nav a {
+        border-right: 0;
+      }
     }
   }
 }

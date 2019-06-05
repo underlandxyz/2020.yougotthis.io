@@ -40,10 +40,44 @@
   h2 {
     font-size: 2em;
     margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
   }
   .img {
     img {
       height: 30em;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    flex-direction: column-reverse;
+    .copy {
+      text-align: center;
+      padding-right: 0;
+      h1 {
+        font-size: 1.5em;
+      }
+      h2 {
+        font-size: 1.25em;
+        font-weight: normal;
+      }
+      .topics {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        margin-top: 1em;
+        img {
+          margin-bottom: 0;
+          margin-top: 1em;
+        }
+      }
+    }
+    .img img {
+      height: 10em;
+      margin-bottom: 1em;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .copy .topics {
+      display: none;
     }
   }
 }
