@@ -44,10 +44,11 @@ export default {
     justify-content: flex-start;
     a {
       text-decoration: none;
-      padding: 1.5em 1.25em;
+      padding: 1.5em 1.25em 1.3em;
       display: inline-block;
       border-right: 1px solid rgba(229, 229, 229, 0.2);
       color: white;
+      border-bottom: 4px solid transparent;
       &.brand {
         h1 {
           font-size: 1em;
@@ -59,13 +60,11 @@ export default {
         font-weight: bold;
       }
       &.minor {
-        border-right: 0;
-        padding-right: 0;
+        // padding-right: 0;
       }
     }
     .inner .nuxt-link-active {
-      background: var(--secondary);
-      border-right: 0;
+      border-bottom-color: var(--theme-dark);
     }
   }
   .cta {
