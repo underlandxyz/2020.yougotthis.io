@@ -2,7 +2,7 @@
   <div id='page' class='w'>
     <h1 id="title">Inclusion Programme</h1>
     <p>We're committed to running an accessible, inclusive and safe conference for everyone. We're working with <a href="https://mykindof.tech">My Kind of Tech</a> to add extra ✨ to our inclusion programme.</p>
-    <p>Our inclusion programme includes tickets for those in under-represented groups in tech. This includes, but isn't limited to: LGBTQIA+ people, people of colour, women, non-binary people, and those with disabilities. It does not include white, straight men. Our application process should only take 5 minutes, and doesn't ask you to disclose any information which is sensitive. If you have questions about it, <a href="mailto:ygt@underland.events">please get in touch with us via email</a>.</p>
+    <p>Our inclusion programme includes tickets for those in under-represented groups in tech. This includes, but isn't limited to: LGBTQIA+ people, people of colour, women, non-binary people, and those with disabilities. It does not include white, straight men. Our application process should only take 5 minutes, and doesn't ask you to disclose any information which is sensitive. If you have questions about it, <a href="mailto:yougotthis@underland.events">please get in touch with us via email</a>.</p>
     <div class="scholarships">
       <div class="types">
         <div class="type">
@@ -60,7 +60,7 @@
         <p>We are currently exploring having on-site childcare available at no cost to attendees. In the case we aren't able to organise it, we will provide stipends for childcare to scholarship recipients.</p>
       </li>
     </ul>
-    <p>The Underland and My Kind Of Tech teams hope this will make the event comfortable for everyone. If there's something more you think we could be doing, <a href="mailto:ygt@underland.events">please get in touch</a>.</p>
+    <p>The Underland and My Kind Of Tech teams hope this will make the event comfortable for everyone. If there's something more you think we could be doing, <a href="mailto:yougotthis@underland.events">please get in touch</a>.</p>
   </div>
 </template>
 

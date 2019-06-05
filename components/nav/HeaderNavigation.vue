@@ -2,18 +2,19 @@
   <div id='header-navigation'>
     <nav>
       <n-link to='/' class='brand'>
-        <h1>You Got This!</h1>
+        <h1>You Got This</h1>
       </n-link>
       <div class="inner">
         <n-link v-for='link in nav' :key='link.path' :to='link.path' :class='link.class'>{{link.text}}</n-link>
       </div>
     </nav>
-    <!-- <n-link to='/talk' class="cta btn apply">Submit a talk</n-link> -->
-    <div id="mob-menu">
+    <div class="mob-menu-toggle" @click="showMob = !showMob">Menu</div>
+    <div id="mob-menu" v-if='showMob'>
       <nav>
         <n-link v-for='link in mobNav' :key='link.path' :to='link.path'>{{link.text}}</n-link>
       </nav>
     </div>
+    <!-- <n-link to='/talk' class="cta btn apply">Submit a talk</n-link> -->
   </div>
 </template>
 
@@ -21,7 +22,7 @@
 export default {
   data() {
     return {
-      showNav: false,
+      showMob: false,
       nav: [
         // { text: 'Schedule', path: '/schedule', class:'bold' },
         // { text: 'Venue', path: '/venue', class:'minor' },
@@ -31,12 +32,17 @@ export default {
       ],
       mobNav: [
         { text: 'Inclusion', path: '/inclusion' },
-        // { text: 'Conduct', path: '/conduct' },
-        // { text: 'Sponsor', path: '/sponsor' },
+        { text: 'Conduct', path: '/conduct' },
+        { text: 'Sponsor', path: '/sponsor' },
         // { text: 'Submit a talk', path: '/talk' }
       ]
     }
-  }
+  },
+  watch:{
+    $route (to, from){
+      this.showMob = false;
+    }
+  },
 }
 </script>
 
@@ -86,13 +92,31 @@ export default {
   #mob-menu {
     display: none;
   }
+  .mob-menu-toggle {
+    display: none;
+  }
   @media screen and (max-width: 800px) {
+    .mob-menu-toggle {
+      display: block;
+      text-decoration: none;
+      padding: 1.5em 1.25em 1.3em;
+      display: inline-block;
+      border-right: 1px solid rgba(229, 229, 229, 0.2);
+      color: white;
+      border-bottom: 4px solid transparent;
+      cursor: pointer;
+    }
     .inner,
     .cta {
       display: none;
     }
     #mob-menu {
+      background: var(--theme-dark);
       display: block;
+      position: absolute;
+      top: 4em;
+      left: 0;
+      width: 100%;
       nav a {
         border-right: 0;
       }

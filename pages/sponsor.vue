@@ -76,7 +76,7 @@
       <div class="custom">
         <p>Our sponsorship packages and additional sponsorship opportunities are indications of what we can do, however nothing is set in stone. We’re happy to chat about custom packages or creating custom perks for BASH Festival.</p>
       </div>
-      <p>If you have any questions, or wish to discuss sponsorship, please feel free to reach out at <a href="mailto:ygt@underland.events">ygt@underland.events</a> or by phone at +44 7492 886145.</p>
+      <p>If you have any questions, or wish to discuss sponsorship, please feel free to reach out at <a href="mailto:yougotthis@underland.events">yougotthis@underland.events</a> or by phone at +44 7492 886145.</p>
     </div>
   </div>
 </template>

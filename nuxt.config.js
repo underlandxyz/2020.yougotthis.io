@@ -50,6 +50,14 @@ export default {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
+  generate: {
+    routes: [
+      '/conduct',
+      '/inclusion',
+      '/sponsor'
+    ]
+  },
+
   /*
   ** Build configuration
   */
