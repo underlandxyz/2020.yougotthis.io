@@ -3,17 +3,23 @@
     <TopBar />
     <HeaderNavigation />
     <nuxt />
+    <Footer />
+    <Underland />
   </div>
 </template>
 
 <script>
 import TopBar from '~/components/nav/TopBar';
 import HeaderNavigation from '~/components/nav/HeaderNavigation';
+import Footer from '~/components/nav/Footer';
+import Underland from '~/components/nav/Underland';
 
 export default {
   components: {
     TopBar,
-    HeaderNavigation
+    HeaderNavigation,
+    Footer,
+    Underland
   }
 }
 </script>
