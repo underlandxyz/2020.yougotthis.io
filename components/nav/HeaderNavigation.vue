@@ -19,9 +19,8 @@ export default {
     return {
       showNav: false,
       nav: [
-        { text: 'About', path: '/about', class:'minor' },
         // { text: 'Schedule', path: '/schedule', class:'bold' },
-        { text: 'Venue', path: '/venue', class:'minor' },
+        // { text: 'Venue', path: '/venue', class:'minor' },
         { text: 'Inclusion Programme', path: '/inclusion', class:'minor' },
         // { text: 'Food', path: '/food', class:'bold' },
         { text: 'Code of Conduct', path: '/conduct', class:'minor' }
