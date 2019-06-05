@@ -52,6 +52,9 @@
       <div class="tile tweet">
         <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I had intended to leave the <a href="https://twitter.com/hashtag/YouGotThisConf?src=hash&amp;ref_src=twsrc%5Etfw">#YouGotThisConf</a> earlier in the afternoon to go work on my stem cells but the conference was SO GOOD I ended up staying all day! Thanks <a href="https://twitter.com/underlandxyz?ref_src=twsrc%5Etfw">@underlandxyz</a> for the great kickstart to 2019. Feeling motivated and inspired (eventho I&#39;m not a programmer) 😋🥰🌠 <a href="https://t.co/jZm3Yi63ww">pic.twitter.com/jZm3Yi63ww</a></p>&mdash; 🎆🌈Rachel Konichiwakitty🌟🎉 (@konichiwakitty) <a href="https://twitter.com/konichiwakitty/status/1086698393559318530?ref_src=twsrc%5Etfw">January 19, 2019</a></blockquote>
       </div>
+      <a href="https://2019.yougotthis.io/highlights" class="tile text primary link">
+        <h2>See the rest of the highlights on last year's site 👉</h2>
+      </a>
     </div>
   </div>
 </template>
@@ -84,6 +87,12 @@ export default {
     &.secondary {
       background: var(--secondary);
       color: white;
+    }
+    &.primary {
+      background: var(--theme);
+      color: white;
+      display: block;
+      text-decoration: none;
     }
   }
   &.img {
