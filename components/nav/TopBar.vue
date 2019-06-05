@@ -4,7 +4,6 @@
     <div class="meta">
       <n-link to='/contact'>Contact</n-link>
       <n-link to='/sponsor'>Sponsor</n-link>
-      <a href="https://2019.yougotthis.io">2019 Site</a>
       <a href="">#YouGotThisConf</a>
       <a href='https://underland.events'>Underland Events</a>
     </div>
