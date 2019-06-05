@@ -32,7 +32,7 @@ export default {
   --secondary: #00A877;
   --secondary-dark: #00684C;
   --secondary-light: #D3EDEB;
-  --dark: #161B24;
+  --dark: #3A4B57;
 }
 
 * {

@@ -103,6 +103,9 @@
   li {
     margin-left: 0;
     margin-bottom: 0;
+    h2 {
+      color: var(--theme);
+    }
     p {
       margin-bottom: 0;
     }
