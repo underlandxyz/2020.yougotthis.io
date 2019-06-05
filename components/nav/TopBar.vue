@@ -2,9 +2,10 @@
   <div id="top-bar">
     <span class="dates">January 18 2020. Birmingham, UK.</span>
     <div class="meta">
-      <n-link to='/contact'>Contact Us</n-link>
-      <n-link to='/sponsor'>Sponsor You Got This</n-link>
-      <a href="https://2019.yougotthis.io/highlights">2019 Highlights</a>
+      <n-link to='/contact'>Contact</n-link>
+      <n-link to='/sponsor'>Sponsor</n-link>
+      <a href="https://2019.yougotthis.io">2019 Site</a>
+      <a href="">#YouGotThisConf</a>
       <a href='https://underland.events'>Underland Events</a>
     </div>
   </div>

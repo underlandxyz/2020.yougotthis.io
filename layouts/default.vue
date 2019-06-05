@@ -26,6 +26,7 @@ export default {
   --secondary: #00A877;
   --secondary-dark: #00684C;
   --secondary-light: #D3EDEB;
+  --dark: #161B24;
 }
 
 * {
@@ -35,11 +36,21 @@ export default {
 }
 
 body {
-  color: #222;
+  color: var(--dark);
   font-family: 'Inter UI var alt', sans-serif;
+  line-height: 1.5;
 }
 
 a {
   color: inherit;
+}
+
+.w {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: block;
 }
 </style>
