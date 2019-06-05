@@ -1,6 +1,7 @@
 <template>
   <div id="top-bar">
-    <span class="dates">January 18 2020. Birmingham, UK.</span>
+    <span class="dates">January 18 2020.</span>
+    <!-- <span class="dates">January 18 2020. Birmingham, UK.</span> -->
     <div class="meta">
       <n-link to='/sponsor'>Sponsor</n-link>
       <a href='mailto:ygt@underland.events'>Email Us</a>
