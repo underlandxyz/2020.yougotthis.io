@@ -2,7 +2,7 @@
   <div id='hero'>
     <div class="copy">
       <h1>An afforable one-day conference for early-career developers.</h1>
-      <h2>Covering the non-technical skills needed for a happy, healthy work life.</h2>
+      <h2>We're back for the second year to highlight the non-technical skills needed for a happy, healthy work life.</h2>
       <img src="~/assets/site/topics.png" alt="">
     </div>
     <div class="img">

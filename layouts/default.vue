@@ -20,9 +20,9 @@ export default {
 
 <style>
 :root {
-  --theme: #AD0010;
-  --theme-light: #FF3E5A;
-  --theme-dark: #6E0003;
+  --theme: #EE234F;
+  --theme-light: #ff9aa9;
+  --theme-dark: #8E0E33;
   --secondary: #00A877;
   --secondary-dark: #00684C;
   --secondary-light: #D3EDEB;
