@@ -30,6 +30,7 @@ h2 {
   margin-bottom: 2em;
   img {
     width: 100%;
+    display: none;
   }
   p {
     margin: 1em 0;
