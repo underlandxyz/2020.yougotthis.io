@@ -3,6 +3,7 @@
     <div class="copy">
       <h1>An afforable one day conference for early-career developers.</h1>
       <h2>We're back for the second year to highlight the non-technical skills needed for a happy, healthy work life.</h2>
+      <h3>January 18 2020</h3>
       <div class="topics">
         <img src="~/assets/site/topics-1.png" alt="">
         <img src="~/assets/site/topics-2.png" alt="">
@@ -35,13 +36,17 @@
     }
   }
   h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 0.5em;
     font-weight: normal;
+  }
+  h3 {
+    font-weight: normal;
+    margin-top: 1.5rem;
   }
   .img {
     img {
