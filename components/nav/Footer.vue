@@ -27,6 +27,7 @@ footer {
     input {
       padding: 0.75em;
       border: 0;
+      -webkit-appearance: none;
     }
     input[type=email] {
       flex: 1;
