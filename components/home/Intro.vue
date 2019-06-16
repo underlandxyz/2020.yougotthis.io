@@ -3,16 +3,16 @@
     <h2>You Got This is for...</h2>
     <div class="roles">
       <div class="role">
-        <img src="https://placehold.it/500x500" alt="">
-        <p>Folks looking to soon get their first developer role</p>
+        <img src="~/assets/site/soon-to-be.png" alt="Soon-to-be juniors">
+        <p>Folks looking to soon get their first developer role (not just students, also career-changers)</p>
       </div>
       <div class="role">
-        <img src="https://placehold.it/500x500" alt="">
-        <p>Junior devs looking to skill-up and grow professionally</p>
+        <img src="~/assets/site/current-junior.png" alt="Current juniors">
+        <p>Junior devs looking to skill-up and grow professionally into their next roles</p>
       </div>
       <div class="role">
-        <img src="https://placehold.it/500x500" alt="">
-        <p>Managers wanting to better support their team</p>
+        <img src="~/assets/site/manager.png" alt="Managers">
+        <p>Managers and team leaders wanting to know more and better support their team</p>
       </div>
     </div>
   </div>
@@ -30,7 +30,6 @@ h2 {
   margin-bottom: 2em;
   img {
     width: 100%;
-    display: none;
   }
   p {
     margin: 1em 0;
@@ -40,12 +39,12 @@ h2 {
 @media screen and (max-width: 600px) {
   .roles {
     grid-template-columns: 1fr;
-    // img {
-    //   width: 50%;
-    //   display: block;
-    //   margin-left: auto;
-    //   margin-right: auto;
-    // }
+    img {
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 </style>
