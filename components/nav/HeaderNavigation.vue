@@ -14,7 +14,7 @@
         <n-link v-for='link in mobNav' :key='link.path' :to='link.path'>{{link.text}}</n-link>
       </nav>
     </div>
-    <!-- <n-link to='/talk' class="cta btn apply">Submit a talk</n-link> -->
+    <n-link to='/submit' class="cta btn apply">Submit a talk</n-link>
   </div>
 </template>
 
@@ -34,7 +34,7 @@ export default {
         { text: 'Inclusion', path: '/inclusion' },
         { text: 'Conduct', path: '/conduct' },
         { text: 'Sponsor', path: '/sponsor' },
-        // { text: 'Submit a talk', path: '/talk' }
+        { text: 'Submit a talk', path: '/submit' }
       ]
     }
   },
@@ -96,6 +96,9 @@ export default {
     display: none;
   }
   @media screen and (max-width: 800px) {
+    nav {
+      flex-wrap: wrap;
+    }
     .mob-menu-toggle {
       display: block;
       text-decoration: none;
@@ -117,8 +120,12 @@ export default {
       top: 4em;
       left: 0;
       width: 100%;
+      nav {
+        padding-top: 1.5em;
+      }
       nav a {
         border-right: 0;
+        padding-top: 0;
       }
     }
   }
