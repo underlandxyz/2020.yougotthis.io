@@ -12,9 +12,10 @@
     <div id="mob-menu" v-if='showMob'>
       <nav>
         <n-link v-for='link in mobNav' :key='link.path' :to='link.path'>{{link.text}}</n-link>
+        <a href='/submit'>Submit a talk</a>
       </nav>
     </div>
-    <n-link to='/submit' class="cta btn apply">Submit a talk</n-link>
+    <a href='/submit' class="cta btn apply">Submit a talk</a>
   </div>
 </template>
 
@@ -34,7 +35,7 @@ export default {
         { text: 'Inclusion', path: '/inclusion' },
         { text: 'Conduct', path: '/conduct' },
         { text: 'Sponsor', path: '/sponsor' },
-        { text: 'Submit a talk', path: '/submit' }
+        // { text: 'Submit a talk', path: '/submit' }
       ]
     }
   },
