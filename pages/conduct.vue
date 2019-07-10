@@ -32,7 +32,7 @@
     <p>We expect people to follow these rules at all event venues should there be more than one.</p>
     <h2>Reporting Code of Conduct violations</h2>
     <p>If you are subject to, or see something, that makes you uncomfortable please tell us. No issue is too small, and we want to make sure you are safe and happy.</p>
-    <p>The best way to report bad behaviour is to call or text us at +44 7449 549 868. You can also is to email us at yougotthis@underland.events, or send us a DM on Twitter.</p>
+    <p>The best way to report bad behaviour is to call or text us at +44 7449 549 868. You can also is to email us at ygt@underland.events, or send us a DM on Twitter.</p>
   </div>
 </template>
 

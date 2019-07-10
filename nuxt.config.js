@@ -51,10 +51,6 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/redirect-module'
   ],
-
-  redirect: [
-    { from: '^/submit', to: 'https://airtable.com/shrfL0fSbx4254W7n' }
-  ],
   /*
   ** Axios module configuration
   */
