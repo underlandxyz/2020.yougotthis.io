@@ -34,9 +34,6 @@
       <div class="tile tweet">
         <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It was a pleasure to be part of the <a href="https://twitter.com/hashtag/YouGotThisConf?src=hash&amp;ref_src=twsrc%5Etfw">#YouGotThisConf</a> at the weekend. Someone said it was the &#39;single most positive atmosphere at a tech conference I&#39;ve been to&#39;. This is amazing feedback and we hope the event will help early career <a href="https://twitter.com/hashtag/developers?src=hash&amp;ref_src=twsrc%5Etfw">#developers</a> achieve a happy, healthy work life. <a href="https://t.co/nY0K2tDfux">pic.twitter.com/nY0K2tDfux</a></p>&mdash; AND Digital (@AND_Digital) <a href="https://twitter.com/AND_Digital/status/1087315386985525248?ref_src=twsrc%5Etfw">January 21, 2019</a></blockquote>
       </div>
-      <div class="tile img">
-        <img src="~/assets/highlights/5.jpg" alt="">
-      </div>
       <div class="tile vid">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/eE9DyaxO8Z0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -78,9 +75,12 @@ export default {
   columns: 2;
   margin-top: 4em;
   margin-bottom: 2em;
+  display: inline-block;
 }
 .tile {
   margin-bottom: 1em;
+  display: inline-block;
+  width: 100%;
   &.text {
     padding: 1em;
     border-radius: 4px;
