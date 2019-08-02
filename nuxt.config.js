@@ -11,9 +11,9 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'An affordable one-stream conference for juniors on skills needed for a happy, healthy work life.' },
+      { hid: 'description', name: 'description', content: 'An affordable one-stream conference for early-career devs on skills needed for a happy, healthy work life.' },
       { property: 'og:image', content: 'https://yougotthis.io/og.png' },
-      { name: 'og:description', content: 'An affordable one-stream conference for juniors on skills needed for a happy, healthy work life.' }
+      { name: 'og:description', content: 'An affordable one-stream conference for early-career devs on skills needed for a happy, healthy work life.' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/android-icon-192x192.png' },
