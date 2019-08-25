@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <div id='mailing-list'>
     <form action="https://xyz.us18.list-manage.com/subscribe/post?u=434691fcaa2096849818903d2&amp;id=51fe5c8dd3" method="post"
       id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate w" target="_blank" novalidate>
       <label for="mce-EMAIL">Get updates</label>
@@ -9,11 +9,11 @@
         <input type="text" name="b_434691fcaa2096849818903d2_51fe5c8dd3" tabindex="-1" value="">
       </div>
     </form>
-  </footer>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-footer {
+#mailing-list {
   background: var(--theme);
   form {
     margin-bottom: 0;

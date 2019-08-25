@@ -22,7 +22,6 @@
   width: 100%;
   padding: 2em;
   align-items: center;
-  border-bottom: 4px solid var(--dark);
   .copy {
     padding-right: 2em;
     img {

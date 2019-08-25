@@ -3,7 +3,7 @@
     <TopBar />
     <HeaderNavigation />
     <nuxt />
-    <Footer />
+    <MailingList />
     <Underland />
   </div>
 </template>
@@ -11,14 +11,14 @@
 <script>
 import TopBar from '~/components/nav/TopBar';
 import HeaderNavigation from '~/components/nav/HeaderNavigation';
-import Footer from '~/components/nav/Footer';
+import MailingList from '~/components/nav/MailingList';
 import Underland from '~/components/nav/Underland';
 
 export default {
   components: {
     TopBar,
     HeaderNavigation,
-    Footer,
+    MailingList,
     Underland
   }
 }
