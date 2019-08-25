@@ -1,54 +1,68 @@
 <template>
   <div id='mailing-list'>
-    <form action="https://xyz.us18.list-manage.com/subscribe/post?u=434691fcaa2096849818903d2&amp;id=51fe5c8dd3" method="post"
-      id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate w" target="_blank" novalidate>
-      <label for="mce-EMAIL">Get updates</label>
-      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
-      <input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="button">
-      <div style="position: absolute; left: -5000px; top: 0; pointer-events: none" aria-hidden="true">
-        <input type="text" name="b_434691fcaa2096849818903d2_51fe5c8dd3" tabindex="-1" value="">
+    <form @submit.prevent='submit'>
+      <label for="first">Register to the Underland Events mailing list for updates</label>
+      <div class="inputs" v-if="!successful">
+        <input v-model='first' type="text" id='first' placeholder='First Name' required>
+        <input v-model='last' type="text" id='last' placeholder='Last Name' required>
+        <input v-model='email' type="email" id='email' placeholder='Email Address' required>
+        <input type="submit" value='Subscribe'>
       </div>
+      <p v-else>Successfully subscribed</p>
     </form>
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      first: '',
+      last: '',
+      email: '',
+      successful: false
+    }
+  },
+  methods: {
+    submit() {
+      this.$axios({
+        method: 'POST',
+        url: 'https://2020.yougotthis.io/.netlify/functions/mailing-list',
+        data: { first, last, email }
+      }).then(() => {
+        this.successful = true;
+      })
+    }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 #mailing-list {
   background: var(--theme);
-  form {
-    margin-bottom: 0;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-    label {
-      margin-right: 1em;
-      color: white;
-    }
-    input {
-      padding: 0.75em;
-      border: 0;
-      -webkit-appearance: none;
-    }
-    input[type=email] {
-      flex: 1;
-      margin-right: 1em;
-    }
-    input[type=submit] {
+  text-align: center;
+  padding: 1em;
+  label {
+    color: white;
+    margin-bottom: 0.25em;
+    display: block;
+  }
+  input {
+    padding: 0.75em;
+    -webkit-appearance: none;
+    border: 0;
+    margin-top: 0.5em;
+    &[type=submit] {
       background: white;
     }
-    @media screen and (max-width: 800px) {
-      flex-direction: column;
-      label, input {
-        width: 100%;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-      }
-      label {
-        text-align: center;
-      }
-      input {
-        margin-top: 1em;
-      }
+  }
+  p {
+    margin-top: 0.5em;
+  }
+  @media screen and (max-width: 800px) {
+    input {
+      display: block;
+      width: 100%;
     }
   }
 }
