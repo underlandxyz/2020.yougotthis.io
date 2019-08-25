@@ -59,6 +59,7 @@ export default {
   }
   p {
     margin-top: 0.5em;
+    color: white;
   }
   @media screen and (max-width: 800px) {
     input {
