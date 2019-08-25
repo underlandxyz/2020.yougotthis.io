@@ -3,7 +3,6 @@ const { AIRTABLE_KEY } = process.env;
 const base = new Airtable({apiKey: AIRTABLE_KEY}).base('appFgc1lyp34ZmAYB');
 
 exports.handler = function(event, context, callback) {
-  console.log(event.body);
   const { first, last, email } = JSON.parse(event.body);
 
   base('Mailing List').create({

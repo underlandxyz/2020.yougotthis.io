@@ -25,6 +25,7 @@ export default {
   },
   methods: {
     submit() {
+      const { first, last, email } = this;
       this.$axios({
         method: 'POST',
         url: 'https://2020.yougotthis.io/.netlify/functions/mailing-list',
