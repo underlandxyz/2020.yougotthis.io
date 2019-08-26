@@ -9,7 +9,10 @@ exports.handler = function(event, context, callback) {
     "First Name": first,
     "Last Name": last,
     "Email Address": email,
-    "Originator": "You Got This 2020 Site"
+    "Originator": [
+      "You Got This 2020 Site"
+    ],
+    
   }, (err, record) => {
     if(err) {
       callback(err);
