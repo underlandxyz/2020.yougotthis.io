@@ -21,7 +21,7 @@
     <p>All speakers will also be offered mentorship around writing and delivering their talk. We welcome new speakers.</p>
     <p>Please don't submit sales pitches for your business or product.</p>
     <p>We are not interested in technical talks. This is a conference about non-technical skills. </p>
-    <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrfL0fSbx4254W7n?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="1742" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    <h1>Talk submissions have now closed.</h1>
   </div>
 </template>
 

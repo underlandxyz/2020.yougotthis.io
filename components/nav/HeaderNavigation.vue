@@ -12,10 +12,10 @@
     <div id="mob-menu" v-if='showMob'>
       <nav>
         <n-link v-for='link in mobNav' :key='link.path' :to='link.path'>{{link.text}}</n-link>
-        <a href='/submit'>Submit a talk</a>
+        <!-- <a href='/submit'>Submit a talk</a> -->
       </nav>
     </div>
-    <a href='/submit' class="cta btn apply">Submit a talk</a>
+    <!-- <a href='/submit' class="cta btn apply">Submit a talk</a> -->
   </div>
 </template>
 
