@@ -16,6 +16,7 @@
       </nav>
     </div>
     <!-- <a href='/submit' class="cta btn apply">Submit a talk</a> -->
+    <a class='cta btn' href='https://www.universe.com/events/you-got-this-2020-tickets-896LTF'>Get Tickets</a>
   </div>
 </template>
 

@@ -23,6 +23,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'stylesheet', href: 'https://rsms.me/inter/inter-ui.css' }
+    ],
+    script: [
+      { src: 'https://www.universe.com/embed2.js' }
     ]
   },
 
