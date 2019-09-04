@@ -1,5 +1,6 @@
 const Airtable = require('airtable');
-const { AIRTABLE_KEY } = process.env;
+// const { AIRTABLE_KEY } = process.env;
+const AIRTABLE_KEY = 'keyyjGblNFEtVEZUS';
 const base = new Airtable({apiKey: AIRTABLE_KEY}).base('appFgc1lyp34ZmAYB');
 
 exports.handler = function(event, context, callback) {
@@ -9,7 +10,9 @@ exports.handler = function(event, context, callback) {
     "First Name": first,
     "Last Name": last,
     "Email Address": email,
-    "Originator": "You Got This 2020 Site"
+    "Originator": [
+      "You Got This 2020 Site"
+    ]
     
   }, (err, record) => {
     if(err) {
