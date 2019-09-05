@@ -12,11 +12,10 @@
     <div id="mob-menu" v-if='showMob'>
       <nav>
         <n-link v-for='link in mobNav' :key='link.path' :to='link.path'>{{link.text}}</n-link>
-        <!-- <a href='/submit'>Submit a talk</a> -->
+        <a href='https://www.universe.com/events/you-got-this-2020-tickets-896LTF'>Buy Tickets</a>
       </nav>
     </div>
-    <!-- <a href='/submit' class="cta btn apply">Submit a talk</a> -->
-    <a class='cta btn' href='https://www.universe.com/events/you-got-this-2020-tickets-896LTF'>Get Tickets</a>
+    <a class='cta btn' href='https://www.universe.com/events/you-got-this-2020-tickets-896LTF'>Buy Tickets</a>
   </div>
 </template>
 
@@ -119,7 +118,7 @@ export default {
       background: var(--theme-dark);
       display: block;
       position: absolute;
-      top: 4em;
+      top: 4.5em;
       left: 0;
       width: 100%;
       nav {

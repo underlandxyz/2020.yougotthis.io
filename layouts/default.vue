@@ -52,7 +52,7 @@ a {
 }
 
 .w {
-  max-width: 860px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1em;

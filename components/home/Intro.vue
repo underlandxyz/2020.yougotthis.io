@@ -20,7 +20,7 @@
 
 <style lang="scss" scoped>
 h2 {
-  margin: 2em 0;
+  margin: 2em 0 0;
   text-align: center;
 }
 .roles {
@@ -37,6 +37,9 @@ h2 {
   }
 }
 @media screen and (max-width: 600px) {
+  h2 {
+    margin-bottom: 1em;
+  }
   .roles {
     grid-template-columns: 1fr;
     img {

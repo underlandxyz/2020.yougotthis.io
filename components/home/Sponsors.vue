@@ -1,6 +1,6 @@
 <template>
   <div id='sponsors' class='w'>
-    <h2>Made possible by</h2>
+    <h2>Made possible by...</h2>
     <div class="logos">
       <a v-for='sponsor in sponsors' :key='sponsor.link' :href="sponsor.link">
         <img :src="require(`@/assets/sponsors/${sponsor.image}`)" alt="">
@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#sponsors {
+  margin-bottom: 4rem;
+}
 h2 {
   text-align: center;
 }

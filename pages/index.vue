@@ -3,7 +3,7 @@
     <Hero />
     <MailingList />
     <Intro />
-    <Tickets />
+    <Topics />
     <Sponsors />
     <WhatTheySay />
   </div>
@@ -13,9 +13,9 @@
 import Hero from '~/components/home/Hero';
 import Intro from '~/components/home/Intro';
 import Sponsors from '~/components/home/Sponsors';
+import Topics from '~/components/home/Topics';
 import WhatTheySay from '~/components/home/WhatTheySay';
 import MailingList from '~/components/nav/MailingList';
-import Tickets from '~/components/home/Tickets';
 export default {
   components: {
     Hero,
@@ -23,7 +23,7 @@ export default {
     WhatTheySay,
     Sponsors,
     MailingList,
-    Tickets
+    Topics
   }
 }
 </script>

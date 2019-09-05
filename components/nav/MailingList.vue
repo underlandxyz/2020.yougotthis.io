@@ -43,6 +43,7 @@ export default {
   background: var(--theme);
   text-align: center;
   padding: 1em;
+  padding-bottom: 1.25em;  
   label {
     color: white;
     margin-bottom: 0.25em;
