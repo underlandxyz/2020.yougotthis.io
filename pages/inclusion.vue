@@ -24,7 +24,7 @@
           </ul>
         </div>
       </div>
-      <h3>Scholarship applications will open soon</h3>
+      <a href="https://airtable.com/shr1hfyrzRBEHjZgs" class="apply" target="_blank">Apply for a scholarship before October 31st 2019</a>
     </div>
     <ul class="other">
       <li>
@@ -33,7 +33,7 @@
       </li>
       <li>
         <h2>Venue</h2>
-        <p>Our <n-link to='/venue'>venue</n-link> is accessible to those with wheelchairs and those who would prefer to not use stairs. We also have gender neutral toilets available.</p>
+        <p>Our venue is accessible to those with wheelchairs and those who would prefer to not use stairs. We also have gender neutral toilets available.</p>
       </li>
       <li>
         <h2>Closed Captioning</h2>
@@ -57,7 +57,7 @@
       </li>
       <li>
         <h2>Childcare</h2>
-        <p>We are currently exploring having on-site childcare available at no cost to attendees. In the case we aren't able to organise it, we will provide stipends for childcare to scholarship recipients.</p>
+        <p>We will provide stipends for childcare to scholarship recipients. We will provide these in-advance to ensure attendees are cost neutral.</p>
       </li>
     </ul>
     <p>The Underland and My Kind Of Tech teams hope this will make the event comfortable for everyone. If there's something more you think we could be doing, <a href="mailto:ygt@underland.events">please get in touch</a>.</p>
@@ -113,6 +113,16 @@
   + p {
     margin-bottom: 4em;
   }
+}
+
+.apply {
+  background: var(--theme-dark);
+  display: block;
+  text-align: center;
+  padding: 0.75em;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 0 !important;
 }
 
 @media screen and (max-width: 600px) {
