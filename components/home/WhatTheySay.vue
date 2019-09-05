@@ -60,7 +60,7 @@ iframe {
     }
   }
   .more {
-    background: var(--theme);
+    background: var(--secondary);
     color: white;
     padding: 0.75em;
     text-decoration: none;
@@ -68,8 +68,17 @@ iframe {
     font-size: 1.25em;
     width: 100%;
   }
-  @media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 800px) {
+  img {
+    display: none;
+  }
+  .tweets {
     columns: 1;
+  }
+  iframe {
+    height: 54vw;
+    margin-top: 0;
   }
 }
 </style>
