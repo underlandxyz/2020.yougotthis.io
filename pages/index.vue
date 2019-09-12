@@ -5,6 +5,7 @@
     <Intro />
     <Topics />
     <Sponsors />
+    <Speakers />
     <WhatTheySay />
   </div>
 </template>
@@ -16,6 +17,7 @@ import Sponsors from '~/components/home/Sponsors';
 import Topics from '~/components/home/Topics';
 import WhatTheySay from '~/components/home/WhatTheySay';
 import MailingList from '~/components/nav/MailingList';
+import Speakers from '~/components/home/Speakers';
 export default {
   components: {
     Hero,
@@ -23,7 +25,8 @@ export default {
     WhatTheySay,
     Sponsors,
     MailingList,
-    Topics
+    Topics,
+    Speakers
   }
 }
 </script>
