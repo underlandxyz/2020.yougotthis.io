@@ -59,7 +59,7 @@ export default {
 .list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2em;
+  grid-gap: 2.5em;
 }
 @media screen and (max-width: 1000px) {
   .list {

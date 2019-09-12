@@ -67,7 +67,7 @@
       <div class="more">
         <h2>Additional Sponsorship Opportunities</h2>
         <ul>
-          <li>Provide live-captioning - £1,500</li>
+          <li>Provide live-captioning - £2,000</li>
           <li>Provide a mid-afternoon snack - £1,500</li>
           <li>Sponsor lunch - £3,000</li>
           <li>Pay for and watermark photography - £1,250</li>

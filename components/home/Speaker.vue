@@ -40,14 +40,11 @@ export default {
   display: inline-block;
 }
 .main {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 125px auto;
+  grid-gap: 1em;
   img {
-    width: 100px;
-    height: 100px;
-    margin-right: 1em;
+    width: 100%;
   }
   p.title {
     font-weight: bold;
@@ -59,27 +56,27 @@ export default {
     cursor: pointer;
   }
 }
+.meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .details {
   p {
     margin-top: 1em;
   }
 }
 @media screen and (max-width: 1000px) {
-  .main img {
-    width: 200px;
-    height: 200px;
-    margin-right: 2em;
-  }
-}
-@media screen and (max-width: 800px) {
   .speaker {
-    display: block;
+    width: 100%;
   }
   .main {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     text-align: center;
     img {
-      margin: 0 0 1em;
+      display: block;
+      margin: 0 auto;
+      width: 60%;
     }
   }
   .details {
