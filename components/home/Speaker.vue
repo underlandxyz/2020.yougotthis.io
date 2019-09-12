@@ -6,7 +6,10 @@
         <div class="meta">
           <p class='title'>{{ speaker.title }}</p>
           <p v-if='speaker.name'>{{ speaker.name }} <a v-if='speaker.twitter' :href="'https://twitter.com/' + speaker.twitter" target="_blank">(@{{ speaker.twitter }})</a></p>
-          <small v-if='speaker.desc' @click="showDetails = !showDetails">{{ moreText }}</small>
+          <small 
+            v-if='speaker.desc' 
+            @click="showDetails = !showDetails"
+            :style="{ color: speaker.color }">{{ moreText }}</small>
         </div>
       </div>
       <div class="details" v-if='showDetails'>
@@ -35,8 +38,6 @@ export default {
 <style lang="scss" scoped>
 .speaker {
   display: inline-block;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 .main {
   display: flex;
@@ -56,7 +57,6 @@ export default {
     display: inline-block;
     margin-top: 0.5em;
     cursor: pointer;
-    color: var(--theme);
   }
 }
 .details {

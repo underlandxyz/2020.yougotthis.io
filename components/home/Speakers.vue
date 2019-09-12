@@ -18,6 +18,7 @@ export default {
           name: 'Amy Dickens',
           twitter: 'RedRoxProjects',
           avatar: require('~/assets/speakers/amy-dickens.png'),
+          color: '#5457BE',
           title: 'Never stop stopping - real talk about when to walk away',
           desc: [
             'When you start your first job there is a ton of learning to be done, not just about the job itself but the office space & social norms between your colleagues. It can be exciting, challenging & at times overwhelming.',
@@ -27,7 +28,8 @@ export default {
         },
         {
           avatar: require('~/assets/speakers/question.png'),
-          title: 'More speakers announced soon'
+          title: 'More speakers announced soon',
+          color: '#FF004A'
         }
       ]
     }
