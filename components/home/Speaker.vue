@@ -14,6 +14,7 @@
       </div>
       <div class="details" v-if='showDetails'>
         <p v-for='p in speaker.desc' :key='p'>{{ p }}</p>
+        <p><small>{{ speaker.bio }}</small></p>
       </div>
     </div>
   </div>
@@ -60,10 +61,16 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  small {
+    text-decoration: underline;
+  }
 }
 .details {
   p {
     margin-top: 1em;
+  }
+  p small {
+    color: var(--mid);
   }
 }
 @media screen and (max-width: 1000px) {
