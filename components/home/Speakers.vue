@@ -41,6 +41,19 @@ export default {
           bio: 'Amina is an Associate Software Engineer at the Guardian News & Media in London. She taught herself how to code whilst looking after a young baby and juggling a full-time job. She is passionate about encouraging under-represented groups into tech and is proof that it’s possible to become an engineer without spending a penny. She is an international speaker who seeks to represent the voice of new developers in the software engineering industry.'
         },
         {
+          name: 'Dan Parkes',
+          twitter: 'dancparkes',
+          avatar: require('~/assets/speakers/dan-parkes.png'),
+          color: '#FF6F00',
+          title: 'Unions Got This - Organising the Tech Trade',
+          desc: [
+            'Unions don’t usually come up in history class. If they do, they’re normally accompanied by talk of miners and Thatcherism. But we’re not taught what unions actually do for the modern, nine-to-five worker. That’s where this talk comes in.',
+            'This will be a whistle-stop tour of what unionism means in today’s world of tech. We’ll briefly cover what a union is, the various shapes and sizes they take and what they can do for you, using the recently formed Game Workers Unite UK branch of the IWGB as an example.',
+            'We’ll also touch upon the happenings across the pond at Kickstarter and Vox Media as well as how the international movements of Game Workers Unite and the Tech Workers Coalition are bringing unionism into tech industries.'
+          ],
+          bio: 'Dan is the Chair of the West Midlands Regional Group of Game Workers Unite UK. He’s also an Audio Engineer at Pixel Toys and has worked in the games industry for 6 years across audio, data and design disciplines.'
+        },
+        {
           avatar: require('~/assets/speakers/question.png'),
           title: 'More speakers announced soon',
           color: '#FF004A'
