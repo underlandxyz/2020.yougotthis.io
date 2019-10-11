@@ -54,6 +54,18 @@ export default {
           bio: 'Dan is the Chair of the West Midlands Regional Group of Game Workers Unite UK. He’s also an Audio Engineer at Pixel Toys and has worked in the games industry for 6 years across audio, data and design disciplines.'
         },
         {
+          name: 'Nathaniel Okenwa',
+          twitter: 'chatterboxCoder',
+          avatar: require('~/assets/speakers/nathaniel-okenwa.png'),
+          color: '#FF0045',
+          title: '0 to 100 Real Quick - Making your First Days Count',
+          desc: [
+            'Hooray! You’ve landed your first full-time tech job, but what comes next? The first few months can be daunting and it is easy to feel like you don’t belong. In this talk, we look at some useful strategies to help you navigate your rookie year.',
+            'Last year, I started my first full-time role as a Developer Evangelist. Speaking with fellow newbies, I realised how similar our experiences were. Over the past 12 months, I have collected useful learnings to guide others through this early phase of their careers. Whether you’re new in tech and looking for your first role, a new hire just starting or a manager onboarding juniors, this talk will provide you with a checklist of actionable practices to ace your first year.'
+          ],
+          bio: "Nathaniel is a Developer Evangelist at Twilio working to create magical moments for developers with their products. He is a die hard fan of JavaScript, sports, superheroes and mixed martial arts. His life goals are to have Batman's brains, Deadpool's humour, T'Challa's fashion sense, Killmonger's Wokeness, and Thanos' determination! He serves the Javascript community in the UK and the rest of Europe."
+        },
+        {
           avatar: require('~/assets/speakers/question.png'),
           title: 'More speakers announced soon',
           color: '#FF004A'
