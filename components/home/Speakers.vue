@@ -65,6 +65,69 @@ export default {
           ],
           bio: "Nathaniel is a Developer Evangelist at Twilio working to create magical moments for developers with their products. He is a die hard fan of JavaScript, sports, superheroes and mixed martial arts. His life goals are to have Batman's brains, Deadpool's humour, T'Challa's fashion sense, Killmonger's Wokeness, and Thanos' determination! He serves the Javascript community in the UK and the rest of Europe."
         },
+        // {
+        //   name: 'Gargi Sharma',
+        //   twitter: 'gawwrgi',
+        //   avatar: require('~/assets/speakers/gargi-sharma.png'),
+        //   color: '#00BF8E',
+        //   title: "So good they can't ignore you! 😎",
+        //   desc: [
+        //     "You are good at your job, are polite, deadline oriented and polite. Your long-term professional goals are well-defined, and you work toward them consistently.","But working hard is sometimes not enough. People around you need to see and value your work.",
+        //     "This talk will cover hard-work, visibility, the myth of meritocracy, and what we owe one another once we are “successful”."
+        //   ],
+        //   bio: "Gargi is a systems engineer at Tarides, who really cares about building teams with psychological safety.  Gargi is really passionate about teaching, systems programming and Modern Art. In the past, Gargi attended the Recurse Center, volunteered at AddisCoder, worked as a software engineer at Bloomberg LP, and wrote some code for the Linux Kernel."
+        // },
+        // {
+        //   name: 'Ruth Lee',
+        //   twitter: 'yoursruthlessly',
+        //   avatar: require('~/assets/speakers/ruth-lee.png'),
+        //   color: '#5457BE',
+        //   title: 'Company Culture, Performance Reviews & You',
+        //   desc: [
+        //     `Culture fit". The dreaded phrase we all love to hear in our rejection letters, but culture's more than just being a cis white dude. In this talk I'll discuss engineering culture, particularly around approaches to risk and maturity of processes in companies of different sizes. This talk is aimed at helping junior engineers understand how this culture impacts performance reviews and how to adapt to flourish in different company environments.`,
+        //     `You'll get the low down on engineering team culture from a business perspective. We'll cover what culture is (approach to risk) and isn’t (free snacks). Company and team culture archetypes (startup vs. mature) and suggest which suit different career and comfort levels.`,
+        //     `We'll also look at how company culture impacts your career especially the effect on performance reviews and feedback. How you should account for this in your own self assessment, and strategies for assessing stated versus actual culture.`
+        //   ],
+        //   bio: "Ruth is an Engineering Manager for the Site Reliability Team at Splunk. She's been a Linux engineer for almost a decade during which time she's developed an unhealthy obsession with the topic of time in computing. Outside of work you can find her on a mountain, the sea, or at the gym powerlifting."
+        // },
+        // {
+        //   name: 'Keziyah Lewis',
+        //   twitter: 'KeziyahL',
+        //   avatar: require('~/assets/speakers/keziyah-lewis.png'),
+        //   color: '#FF0045',
+        //   title: "It's not your job to love your job",
+        //   desc: [
+        //     'Tech workers are under enormous pressure to put our jobs above anything else in our lives. Startup culture encourages self sacrifice and overwork in order to complete the company’s mission. As early career devs, it’s easy to feel that we should be grateful to have a job in this industry, especially when you have a decent salary and perks, and your boss is constantly reminding you that you’re part of a “family” that is “changing the world.',
+        //     'Loving or appreciating your job isn’t a problem on its own. But you’re not obligated to do it. In fact, I’d argue that the pressure to love your job can be dangerous. Using examples from my personal experience and from the tech industry as a whole, I’ll talk about how unconditional job love is used to exploit or mistreat tech workers.',
+        //     'You’ll leave this talk with a better understanding of techniques employers use to mask workplace issues, how to view your workplace more critically, how to spot cultural red flags, and how to advocate for yourself and your colleagues.'
+        //   ],
+        //   bio: "Keziyah Lewis is a Black and queer web developer, designer, and digital nomad. She curates Juniors in Tech, a newsletter for early career technologists. Keziyah is passionate about eliminating barriers to entering tech, making the industry more diverse and just, and making tech companies better places to work."
+        // },
+        // {
+        //   name: 'Melinda Seckington',
+        //   twitter: 'mseckington',
+        //   avatar: require('~/assets/speakers/melinda-seckington.png'),
+        //   color: '#FF6F00',
+        //   title: 'Level Up: Developing Developers',
+        //   desc: [
+        //     'As video games have become more and more complex, game designers put way more time into creating environments where players are engaged and willing to put the time and effort into learning and mastering these skills.',
+        //     'We can learn a lot from how games are designed to make the internal developer experiences better, since it’s a similar type of environment we want to create: an environment where people can learn and master skills. We should make it easier for developers to understand what options are available to them, allow them to make time for learning and provide structures and processes for them to develop the skills that they want and need for future roles.',
+        //     'This talk will look at how you can help level up your developers by using competencies and career development frameworks, what types of processes you can introduce to support personal development and how developers should be using opportunities like these to get a better understanding of what skills they should focus on.'
+        //   ],
+        //   bio: "Melinda Seckington is a Technical Manager at FutureLearn, the social learning platform offering free and paid-for online courses and degrees from leading universities and organisations worldwide. She speaks at international technology conferences and writes for MissGeeky, a blog about all things geeky and girly. When she’s not busy with events or blogging, you can find Melinda curled up on her couch with a good book or video game."
+        // },
+        // {
+        //   name: 'Matthew Gilliard',
+        //   twitter: 'MaximumGilliard',
+        //   avatar: require('~/assets/speakers/matthew-gilliard.png'),
+        //   color: '#FF6F00',
+        //   title: 'Learning to Invest in Your Future',
+        //   desc: [
+        //     'When change is the only constant, learning is the only future-proof skill. But deadlines, rules and the pressure to ship working code can stop us from learning effectively. To do that we need to give ourselves permission to switch mindset; to try new things, to have fun and to embrace our curiosity.',
+        //     'In this talk, using examples from the pioneers of programming education in the 1960s through to the present day, Matthew will show some effective techniques for developing new programming skills. You’ll see how learning how to learn can benefit you through your whole career, and how valuable it can be to share what you’ve learned with others. As well as making your programming more fun and more interesting, you’ll find out how cultivating your learning can benefit your employer and set you up for success.'
+        //   ],
+        //   bio: 'Matthew is a Developer Evangelist for Twilio, a company that is helping developers to fuel the future of communication with APIs. He loves spending time with the programming community at conferences, meetups and hackathons, helping developers to discover their superpowers.'  
+        // },
         {
           avatar: require('~/assets/speakers/question.png'),
           title: 'More speakers announced soon',
