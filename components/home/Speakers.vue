@@ -65,18 +65,18 @@ export default {
           ],
           bio: "Nathaniel is a Developer Evangelist at Twilio working to create magical moments for developers with their products. He is a die hard fan of JavaScript, sports, superheroes and mixed martial arts. His life goals are to have Batman's brains, Deadpool's humour, T'Challa's fashion sense, Killmonger's Wokeness, and Thanos' determination! He serves the Javascript community in the UK and the rest of Europe."
         },
-        // {
-        //   name: 'Gargi Sharma',
-        //   twitter: 'gawwrgi',
-        //   avatar: require('~/assets/speakers/gargi-sharma.png'),
-        //   color: '#00BF8E',
-        //   title: "So good they can't ignore you! 😎",
-        //   desc: [
-        //     "You are good at your job, are polite, deadline oriented and polite. Your long-term professional goals are well-defined, and you work toward them consistently.","But working hard is sometimes not enough. People around you need to see and value your work.",
-        //     "This talk will cover hard-work, visibility, the myth of meritocracy, and what we owe one another once we are “successful”."
-        //   ],
-        //   bio: "Gargi is a systems engineer at Tarides, who really cares about building teams with psychological safety.  Gargi is really passionate about teaching, systems programming and Modern Art. In the past, Gargi attended the Recurse Center, volunteered at AddisCoder, worked as a software engineer at Bloomberg LP, and wrote some code for the Linux Kernel."
-        // },
+        {
+          name: 'Gargi Sharma',
+          twitter: 'gawwrgi',
+          avatar: require('~/assets/speakers/gargi-sharma.png'),
+          color: '#00BF8E',
+          title: "So good they can't ignore you! 😎",
+          desc: [
+            "You are good at your job, are polite, deadline oriented and polite. Your long-term professional goals are well-defined, and you work toward them consistently.","But working hard is sometimes not enough. People around you need to see and value your work.",
+            "This talk will cover hard-work, visibility, the myth of meritocracy, and what we owe one another once we are “successful”."
+          ],
+          bio: "Gargi is a systems engineer at Tarides, who really cares about building teams with psychological safety.  Gargi is really passionate about teaching, systems programming and Modern Art. In the past, Gargi attended the Recurse Center, volunteered at AddisCoder, worked as a software engineer at Bloomberg LP, and wrote some code for the Linux Kernel."
+        },
         // {
         //   name: 'Ruth Lee',
         //   twitter: 'yoursruthlessly',
