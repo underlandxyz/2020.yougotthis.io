@@ -77,19 +77,19 @@ export default {
           ],
           bio: "Gargi is a systems engineer at Tarides, who really cares about building teams with psychological safety.  Gargi is really passionate about teaching, systems programming and Modern Art. In the past, Gargi attended the Recurse Center, volunteered at AddisCoder, worked as a software engineer at Bloomberg LP, and wrote some code for the Linux Kernel."
         },
-        // {
-        //   name: 'Ruth Lee',
-        //   twitter: 'yoursruthlessly',
-        //   avatar: require('~/assets/speakers/ruth-lee.png'),
-        //   color: '#5457BE',
-        //   title: 'Company Culture, Performance Reviews & You',
-        //   desc: [
-        //     `Culture fit". The dreaded phrase we all love to hear in our rejection letters, but culture's more than just being a cis white dude. In this talk I'll discuss engineering culture, particularly around approaches to risk and maturity of processes in companies of different sizes. This talk is aimed at helping junior engineers understand how this culture impacts performance reviews and how to adapt to flourish in different company environments.`,
-        //     `You'll get the low down on engineering team culture from a business perspective. We'll cover what culture is (approach to risk) and isn’t (free snacks). Company and team culture archetypes (startup vs. mature) and suggest which suit different career and comfort levels.`,
-        //     `We'll also look at how company culture impacts your career especially the effect on performance reviews and feedback. How you should account for this in your own self assessment, and strategies for assessing stated versus actual culture.`
-        //   ],
-        //   bio: "Ruth is an Engineering Manager for the Site Reliability Team at Splunk. She's been a Linux engineer for almost a decade during which time she's developed an unhealthy obsession with the topic of time in computing. Outside of work you can find her on a mountain, the sea, or at the gym powerlifting."
-        // },
+        {
+          name: 'Ruth Lee',
+          twitter: 'yoursruthlessly',
+          avatar: require('~/assets/speakers/ruth-lee.png'),
+          color: '#5457BE',
+          title: 'Company Culture, Performance Reviews & You',
+          desc: [
+            `"Culture fit". The dreaded phrase we all love to hear in our rejection letters, but culture's more than just being a cis white dude. In this talk I'll discuss engineering culture, particularly around approaches to risk and maturity of processes in companies of different sizes. This talk is aimed at helping junior engineers understand how this culture impacts performance reviews and how to adapt to flourish in different company environments.`,
+            `You'll get the low down on engineering team culture from a business perspective. We'll cover what culture is (approach to risk) and isn’t (free snacks). Company and team culture archetypes (startup vs. mature) and suggest which suit different career and comfort levels.`,
+            `We'll also look at how company culture impacts your career especially the effect on performance reviews and feedback. How you should account for this in your own self assessment, and strategies for assessing stated versus actual culture.`
+          ],
+          bio: "Ruth is an Engineering Manager for the Site Reliability Team at Splunk. She's been a Linux engineer for almost a decade during which time she's developed an unhealthy obsession with the topic of time in computing. Outside of work you can find her on a mountain, the sea, or at the gym powerlifting."
+        },
         // {
         //   name: 'Keziyah Lewis',
         //   twitter: 'KeziyahL',
