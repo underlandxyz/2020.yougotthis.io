@@ -2,8 +2,8 @@
   <div id='topics' class="w">
     <h2>We talk about subjects such as...</h2>
     <div class="topics">
-      <img src="~/assets/site/topics-1.png" alt="">
-      <img src="~/assets/site/topics-2.png" alt="">
+      <img src="~/assets/site/topics-1.png" alt="Imposter syndrome, giving feedback, burnout, managing stress, sharing knowledge, creating learning environments, 1-to-1 reviews">
+      <img src="~/assets/site/topics-2.png" alt="negotiation, asking for help, learning, ethics in tech, living wekk, saying no, self-care, teaching others">
     </div>
   </div>
 </template>
