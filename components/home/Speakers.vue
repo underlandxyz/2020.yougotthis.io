@@ -90,19 +90,19 @@ export default {
           ],
           bio: "Ruth is an Engineering Manager for the Site Reliability Team at Splunk. She's been a Linux engineer for almost a decade during which time she's developed an unhealthy obsession with the topic of time in computing. Outside of work you can find her on a mountain, the sea, or at the gym powerlifting."
         },
-        // {
-        //   name: 'Keziyah Lewis',
-        //   twitter: 'KeziyahL',
-        //   avatar: require('~/assets/speakers/keziyah-lewis.png'),
-        //   color: '#FF0045',
-        //   title: "It's not your job to love your job",
-        //   desc: [
-        //     'Tech workers are under enormous pressure to put our jobs above anything else in our lives. Startup culture encourages self sacrifice and overwork in order to complete the company’s mission. As early career devs, it’s easy to feel that we should be grateful to have a job in this industry, especially when you have a decent salary and perks, and your boss is constantly reminding you that you’re part of a “family” that is “changing the world.',
-        //     'Loving or appreciating your job isn’t a problem on its own. But you’re not obligated to do it. In fact, I’d argue that the pressure to love your job can be dangerous. Using examples from my personal experience and from the tech industry as a whole, I’ll talk about how unconditional job love is used to exploit or mistreat tech workers.',
-        //     'You’ll leave this talk with a better understanding of techniques employers use to mask workplace issues, how to view your workplace more critically, how to spot cultural red flags, and how to advocate for yourself and your colleagues.'
-        //   ],
-        //   bio: "Keziyah Lewis is a Black and queer web developer, designer, and digital nomad. She curates Juniors in Tech, a newsletter for early career technologists. Keziyah is passionate about eliminating barriers to entering tech, making the industry more diverse and just, and making tech companies better places to work."
-        // },
+        {
+          name: 'Keziyah Lewis',
+          twitter: 'KeziyahL',
+          avatar: require('~/assets/speakers/keziyah-lewis.png'),
+          color: '#FF0045',
+          title: "It's not your job to love your job",
+          desc: [
+            'Tech workers are under enormous pressure to put our jobs above anything else in our lives. Startup culture encourages self sacrifice and overwork in order to complete the company’s mission. As early career devs, it’s easy to feel that we should be grateful to have a job in this industry, especially when you have a decent salary and perks, and your boss is constantly reminding you that you’re part of a “family” that is “changing the world”.',
+            'Loving or appreciating your job isn’t a problem on its own. But you’re not obligated to do it. In fact, I’d argue that the pressure to love your job can be dangerous. Using examples from my personal experience and from the tech industry as a whole, I’ll talk about how unconditional job love is used to exploit or mistreat tech workers.',
+            'You’ll leave this talk with a better understanding of techniques employers use to mask workplace issues, how to view your workplace more critically, how to spot cultural red flags, and how to advocate for yourself and your colleagues.'
+          ],
+          bio: "Keziyah Lewis is a Black and queer web developer, designer, and digital nomad. She curates Juniors in Tech, a newsletter for early career technologists. Keziyah is passionate about eliminating barriers to entering tech, making the industry more diverse and just, and making tech companies better places to work."
+        },
         // {
         //   name: 'Melinda Seckington',
         //   twitter: 'mseckington',
