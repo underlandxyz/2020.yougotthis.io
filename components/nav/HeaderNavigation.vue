@@ -12,10 +12,10 @@
     <div id="mob-menu" v-if='showMob'>
       <nav>
         <n-link v-for='link in mobNav' :key='link.path' :to='link.path'>{{link.text}}</n-link>
-        <a href='https://www.universe.com/events/you-got-this-2020-tickets-896LTF'>Buy Tickets</a>
+        <a href='https://www.eventbrite.co.uk/e/you-got-this-2020-tickets-77737122827'>Buy Tickets</a>
       </nav>
     </div>
-    <a class='cta btn' href='https://www.universe.com/events/you-got-this-2020-tickets-896LTF'>Buy Tickets</a>
+    <a class='cta btn' href='https://www.eventbrite.co.uk/e/you-got-this-2020-tickets-77737122827'>Buy Tickets</a>
   </div>
 </template>
 

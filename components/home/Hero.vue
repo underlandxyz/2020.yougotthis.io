@@ -4,7 +4,7 @@
       <h2>January 18 2020. Birmingham, UK.</h2>
       <h1>We're back! An affordable one day conference for early-career developers to talk about the non-technical skills needed for a happy, healthy work life.</h1>
       <div class="tickets">
-        <a class='cta btn' href='https://www.universe.com/events/you-got-this-2020-tickets-896LTF'>Buy Tickets</a>
+        <a class='cta btn' href='https://www.eventbrite.co.uk/e/you-got-this-2020-tickets-77737122827'>Buy Tickets</a>
         <n-link to='/inclusion' class='cta btn minor'>Learn about our inclusion programme</n-link>
       </div>
     </div>
