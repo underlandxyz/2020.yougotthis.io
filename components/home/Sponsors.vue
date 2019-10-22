@@ -3,7 +3,7 @@
     <h2>Made possible by...</h2>
     <div class="logos">
       <a v-for="sponsor in sponsors" :key="sponsor.link" :href="sponsor.link">
-        <img :src="require(`@/assets/sponsors/${sponsor.image}`)" alt />
+        <img :src="require(`@/assets/sponsors/${sponsor.image}`)" :alt="sponsor.name" />
       </a>
     </div>
   </div>
@@ -15,22 +15,32 @@ export default {
     return {
       sponsors: [
         {
+          name: 'GitHub',
           image: 'github.png',
           link: 'https://github.com/'
         },
         {
+          name: 'Balsamiq',
           image: 'balsamiq.png',
           link: 'https://balsamiq.com/'
         },
         {
+          name: 'Mozilla',
           image: 'mozilla.png',
           link: 'https://www.mozilla.org'
         },
         {
+          name: 'Twilio',
           image: 'twilio.png',
           link: 'https://twilio.com/'
         },
         {
+          name: 'Samsung Internet',
+          image: 'samsung-internet.png',
+          link: 'https://samsunginter.net/'
+        },
+        {
+          name: '',
           image: 'you.png',
           link:
             'mailto:ygt@eunderland.events?subject=You Got This 2020 Sponsorship'
@@ -50,7 +60,7 @@ h2 {
 }
 .logos {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 1.5em;
   margin-top: 1em;
 }
