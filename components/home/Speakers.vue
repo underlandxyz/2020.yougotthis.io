@@ -103,19 +103,19 @@ export default {
           ],
           bio: "Keziyah Lewis is a Black and queer web developer, designer, and digital nomad. She curates Juniors in Tech, a newsletter for early career technologists. Keziyah is passionate about eliminating barriers to entering tech, making the industry more diverse and just, and making tech companies better places to work."
         },
-        // {
-        //   name: 'Melinda Seckington',
-        //   twitter: 'mseckington',
-        //   avatar: require('~/assets/speakers/melinda-seckington.png'),
-        //   color: '#FF6F00',
-        //   title: 'Level Up: Developing Developers',
-        //   desc: [
-        //     'As video games have become more and more complex, game designers put way more time into creating environments where players are engaged and willing to put the time and effort into learning and mastering these skills.',
-        //     'We can learn a lot from how games are designed to make the internal developer experiences better, since it’s a similar type of environment we want to create: an environment where people can learn and master skills. We should make it easier for developers to understand what options are available to them, allow them to make time for learning and provide structures and processes for them to develop the skills that they want and need for future roles.',
-        //     'This talk will look at how you can help level up your developers by using competencies and career development frameworks, what types of processes you can introduce to support personal development and how developers should be using opportunities like these to get a better understanding of what skills they should focus on.'
-        //   ],
-        //   bio: "Melinda Seckington is a Technical Manager at FutureLearn, the social learning platform offering free and paid-for online courses and degrees from leading universities and organisations worldwide. She speaks at international technology conferences and writes for MissGeeky, a blog about all things geeky and girly. When she’s not busy with events or blogging, you can find Melinda curled up on her couch with a good book or video game."
-        // },
+        {
+          name: 'Melinda Seckington',
+          twitter: 'mseckington',
+          avatar: require('~/assets/speakers/melinda-seckington.png'),
+          color: '#FF6F00',
+          title: 'Level Up: Developing Developers',
+          desc: [
+            'As video games have become more and more complex, game designers put way more time into creating environments where players are engaged and willing to put the time and effort into learning and mastering these skills.',
+            'We can learn a lot from how games are designed to make the internal developer experiences better, since it’s a similar type of environment we want to create: an environment where people can learn and master skills. We should make it easier for developers to understand what options are available to them, allow them to make time for learning and provide structures and processes for them to develop the skills that they want and need for future roles.',
+            'This talk will look at how you can help level up your team by using competencies and career development frameworks, what types of processes you can introduce to support personal development and how developers should be using opportunities like these to get a better understanding of what skills they should focus on.'
+          ],
+          bio: "Melinda Seckington is a Technical Manager at FutureLearn, the social learning platform offering free and paid-for online courses and degrees from leading universities and organisations worldwide. She speaks at international technology conferences and writes for MissGeeky, a blog about all things geeky and girly. When she’s not busy with events or blogging, you can find Melinda curled up on her couch with a good book or video game."
+        },
         // {
         //   name: 'Matthew Gilliard',
         //   twitter: 'MaximumGilliard',
