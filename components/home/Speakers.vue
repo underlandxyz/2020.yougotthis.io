@@ -149,11 +149,10 @@ export default {
 
 <style lang="scss" scoped>
 #speakers {
-  border-bottom: 1px solid var(--secondary-light);
   border-top: 1px solid var(--secondary-light);
   margin-bottom: 4em;
   padding-top: 4em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   h2 {
     text-align: center;
     margin-bottom: 2em;
