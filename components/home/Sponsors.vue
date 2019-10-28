@@ -40,6 +40,16 @@ export default {
           link: 'https://samsunginter.net/'
         },
         {
+          name: 'Pusher',
+          image: 'pusher.png',
+          link: 'https://pusher.com/'
+        },
+        {
+          name: 'Fastprint',
+          image: 'fastprint.png',
+          link: 'https://www.fastprint.co.uk/'
+        },
+        {
           name: '',
           image: 'you.png',
           link:
@@ -60,7 +70,7 @@ h2 {
 }
 .logos {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5em;
   margin-top: 1em;
 }
