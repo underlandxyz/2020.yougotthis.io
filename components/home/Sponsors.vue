@@ -40,6 +40,11 @@ export default {
           link: 'https://samsunginter.net/'
         },
         {
+          name: 'DigitalOcean',
+          image: 'digital-ocean.png',
+          link: 'https://www.digitalocean.com/'
+        },
+        {
           name: 'Pusher',
           image: 'pusher.png',
           link: 'https://pusher.com/'
@@ -49,12 +54,12 @@ export default {
           image: 'fastprint.png',
           link: 'https://www.fastprint.co.uk/'
         },
-        {
-          name: '',
-          image: 'you.png',
-          link:
-            'mailto:ygt@eunderland.events?subject=You Got This 2020 Sponsorship'
-        }
+        // {
+        //   name: '',
+        //   image: 'you.png',
+        //   link:
+        //     'mailto:ygt@eunderland.events?subject=You Got This 2020 Sponsorship'
+        // }
       ]
     }
   }
