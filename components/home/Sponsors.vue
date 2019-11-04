@@ -50,16 +50,21 @@ export default {
           link: 'https://pusher.com/'
         },
         {
+          name: 'Proactive',
+          image: 'proactive.png',
+          link: 'http://proactive.uk.net'
+        },
+        {
           name: 'Fastprint',
           image: 'fastprint.png',
           link: 'https://www.fastprint.co.uk/'
         },
-        // {
-        //   name: '',
-        //   image: 'you.png',
-        //   link:
-        //     'mailto:ygt@eunderland.events?subject=You Got This 2020 Sponsorship'
-        // }
+        {
+          name: '',
+          image: 'you.png',
+          link:
+            'mailto:ygt@eunderland.events?subject=You Got This 2020 Sponsorship'
+        }
       ]
     }
   }
@@ -75,7 +80,7 @@ h2 {
 }
 .logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 1.5em;
   margin-top: 1em;
 }
