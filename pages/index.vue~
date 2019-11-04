@@ -6,7 +6,7 @@
     <Topics />
     <Sponsors />
     <Speakers />
-    <Mc />
+    <!-- <Mc /> -->
     <WhatTheySay />
   </div>
 </template>
