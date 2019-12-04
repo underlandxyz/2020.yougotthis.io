@@ -11,8 +11,7 @@
           <ul>
             <li>Completely free ticket</li>
             <li>You still have to cover the cost of travel (and accommodation if there is any).</li>
-            <li>We are now accepting applications for a second round of ticket-only scholarships.</li>
-            <li>Please apply before November 30th 2019.
+            <li>Applications for our second round of ticket-only scholarships have now closed.</li>
           </ul>
         </div>
         <div class="type">
@@ -20,7 +19,6 @@
           <p>Applications for full scholarships have now closed.</p>
         </div>
       </div>
-      <a href="https://airtable.com/shr1hfyrzRBEHjZgs" class="apply" target="_blank">Apply for a ticket-only scholarship</a>
     </div>
     <ul class="other">
       <li>
