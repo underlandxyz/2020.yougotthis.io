@@ -4,7 +4,7 @@
       <img src="~/assets/brand/underland-events.svg" alt="Underland Events">
       <p>Organised by Underland Events - the developer events company.</p>
     </a>
-    <n-link class='w conduct' to='/conduct'>Code of Conduct</n-link>
+    <span class='w conduct'><a href="https://www.techevents.online/" target="_blank">As featured on TechEvents.online</a></span>
   </div>
 </template>
 
@@ -18,7 +18,7 @@
     height: 3em;
     margin-bottom: 1.5em;
   }
-  a {
+  span, a {
     color: white;
     text-decoration: none;
   }

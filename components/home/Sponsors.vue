@@ -50,14 +50,24 @@ export default {
           link: 'https://pusher.com/'
         },
         {
-          name: 'Proactive',
-          image: 'proactive.png',
-          link: 'http://proactive.uk.net'
+          name: 'Major League Hacking',
+          image: 'mlh.png',
+          link: 'https://mlh.io/'
+        },
+        {
+          name: 'Auth0',
+          image: 'auth0.png',
+          link: 'https://auth0.com/'
         },
         {
           name: 'Fastprint',
           image: 'fastprint.png',
           link: 'https://www.fastprint.co.uk/'
+        },
+        {
+          name: 'Proactive',
+          image: 'proactive.png',
+          link: 'http://proactive.uk.net'
         },
         {
           name: '',
@@ -80,7 +90,7 @@ h2 {
 }
 .logos {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5em;
   margin-top: 1em;
 }
