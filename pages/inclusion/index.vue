@@ -1,8 +1,8 @@
 <template>
   <div id='page' class='w'>
     <h1 id="title">Inclusion Programme</h1>
-    <p>We're committed to running an accessible, inclusive and safe conference for everyone. We're working with <a href="https://mykindof.tech">My Kind of Tech</a> to add extra ✨ to our inclusion programme.</p>
-    <p>Our inclusion programme includes tickets for those in under-represented groups in tech. This includes, but isn't limited to: LGBTQIA+ people, people of colour, women, non-binary people, and those with disabilities. It does not include white, straight men. Our application process should only take 5 minutes, and doesn't ask you to disclose any information which is sensitive. If you have questions about it, <a href="mailto:ygt@underland.events">please get in touch with us via email</a>.</p>
+    <p>As part of our commitment to running an accessible, inclusive and safe conference for everyone we are working with <a href="https://mykindof.tech">My Kind of Tech</a>.</p>
+    <p>Our inclusion programme includes tickets for those in under-represented groups in tech. This includes, but isn't limited to: LGBTQIA+ people, people of colour, women, non-binary people, and those with disabilities. Our application process should only take 5 minutes, and doesn't ask you to disclose any information which is sensitive. If you have questions about it, <a href="mailto:ygt@underland.events">please get in touch with us via email</a>.</p>
     <div class="scholarships">
       <div class="types">
         <div class="type">
@@ -11,20 +11,14 @@
           <ul>
             <li>Completely free ticket</li>
             <li>You still have to cover the cost of travel (and accommodation if there is any).</li>
+            <li>Applications for our second round of ticket-only scholarships have now closed.</li>
           </ul>
         </div>
         <div class="type">
           <h2>Full scholarships</h2>
-          <p>We plan to make some full scholarships available pending sponsorship. In 2019 we awarded 8 of these.</p>
-          <ul>
-            <li>Completely free ticket</li>
-            <li>Accommodation & travel covered in advance</li>
-            <li>Stipend to cover related costs</li>
-            <li>Only available for people travelling from the UK</li>
-          </ul>
+          <p>Applications for full scholarships have now closed.</p>
         </div>
       </div>
-      <a href="https://airtable.com/shr1hfyrzRBEHjZgs" class="apply" target="_blank">Apply for a scholarship before October 31st 2019</a>
     </div>
     <ul class="other">
       <li>
