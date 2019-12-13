@@ -35,7 +35,7 @@
       </li>
       <li>
         <h2>Speakers</h2>
-        <p>Speakers are selected by blind review of their proposed talks without any identifying information. They are being paid, and provided 1-to-1 mentoring sessions to support first-time speakers.</p>
+        <p>Speakers are selected by blind review of their proposed talks without any identifying information. They are being paid for their time.</p>
       </li>
       <li>
         <h2>Food</h2>
@@ -51,7 +51,7 @@
       </li>
       <li>
         <h2>Childcare</h2>
-        <p>We will provide stipends for childcare to scholarship recipients. We will provide these in-advance to ensure attendees are cost neutral.</p>
+        <p>We will provide stipends for childcare to scholarship recipients. We can provide these in-advance to ensure attendees are cost neutral.</p>
       </li>
     </ul>
     <p>The Underland and My Kind Of Tech teams hope this will make the event comfortable for everyone. If there's something more you think we could be doing, <a href="mailto:ygt@underland.events">please get in touch</a>.</p>
