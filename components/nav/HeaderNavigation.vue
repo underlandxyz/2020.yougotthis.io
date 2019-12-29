@@ -28,13 +28,14 @@ export default {
         // { text: 'Schedule', path: '/schedule', class:'bold' },
         // { text: 'Venue', path: '/venue', class:'minor' },
         { text: 'Inclusion Programme', path: '/inclusion', class:'minor' },
-        // { text: 'Food', path: '/food', class:'bold' },
-        { text: 'Code of Conduct', path: '/conduct', class:'minor' }
+        { text: 'Code of Conduct', path: '/conduct', class:'minor' },
+        { text: 'Schedule', path: '/schedule', class:'minor' },
       ],
       mobNav: [
         { text: 'Inclusion', path: '/inclusion' },
         { text: 'Conduct', path: '/conduct' },
-        { text: 'Sponsor', path: '/sponsor' },
+        { text: 'Schedule', path: '/schedule' },
+        // { text: 'Sponsor', path: '/sponsor' },
         // { text: 'Submit a talk', path: '/submit' }
       ]
     }
