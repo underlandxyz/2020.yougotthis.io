@@ -11,7 +11,7 @@
           <ul>
             <li>Completely free ticket</li>
             <li>You still have to cover the cost of travel (and accommodation if there is any).</li>
-            <li>Applications for our third round of ticket-only scholarships are now open.</li>
+            <li>Applications for our third round of ticket-only scholarships are being extended into the New Year but spaces will run out so apply soon!.</li>
           </ul>
         </div>
         <div class="type">
@@ -19,7 +19,7 @@
           <p>Applications for full scholarships have now closed.</p>
         </div>
       </div>
-      <a href="https://airtable.com/shr1hfyrzRBEHjZgs" class="apply" target="_blank">Apply for a ticket-only scholarship before 31st December 2019</a>
+      <a href="https://airtable.com/shr1hfyrzRBEHjZgs" class="apply" target="_blank">Apply for a ticket-only scholarship</a>
     </div>
     <ul class="other">
       <li>
