@@ -5,7 +5,7 @@
       <h1>We're back! An affordable one day conference for early-career developers to talk about the non-technical skills needed for a happy, healthy work life.</h1>
       <div class="tickets">
         <a class='cta btn' href='https://www.eventbrite.co.uk/e/you-got-this-2020-tickets-77737122827'>Buy Tickets</a>
-        <n-link to='/inclusion' class='cta btn minor'>Learn about our inclusion programme</n-link>
+        <n-link to='/schedule' class='cta btn minor'>Schedule</n-link>
       </div>
     </div>
     <div class="img">
