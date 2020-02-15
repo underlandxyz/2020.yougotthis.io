@@ -1,0 +1,33 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/_phzn/clients/underland/2020.yougotthis.io/assets/print/balcony/Document fonts/AdobeFnt20.lst
+FileLength:529
+FileModTime:600263087
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Bangers-Regular
+FamilyName:Bangers
+StyleName:Regular
+MenuName:Bangers
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Bangers Regular
+WritingScript:Roman
+OutlineFileName:/Users/_phzn/clients/underland/2020.yougotthis.io/assets/print/balcony/Document fonts/Bangers-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:95220
+FileModTime:318895200
+NameArray:0,Win,1,Bangers
+%EndFont
+

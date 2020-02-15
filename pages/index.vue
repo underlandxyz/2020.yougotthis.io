@@ -1,7 +1,7 @@
 <template>
   <div id="page">
     <Hero />
-    <MailingList />
+    <!-- <MailingList /> -->
     <Intro />
     <Topics />
     <Sponsors />

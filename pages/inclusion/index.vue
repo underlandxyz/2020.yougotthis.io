@@ -19,7 +19,7 @@
           <p>Applications for full scholarships have now closed.</p>
         </div>
       </div>
-      <a href="https://airtable.com/shr1hfyrzRBEHjZgs" class="apply" target="_blank">Apply for a ticket-only scholarship before 31st December 2019</a>
+      <!-- <a href="https://airtable.com/shr1hfyrzRBEHjZgs" class="apply" target="_blank">Apply for a ticket-only scholarship before 31st December 2019</a> -->
     </div>
     <ul class="other">
       <li>

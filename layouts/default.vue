@@ -3,7 +3,7 @@
     <TopBar />
     <HeaderNavigation />
     <nuxt />
-    <MailingList />
+    <!-- <MailingList /> -->
     <Underland />
   </div>
 </template>
