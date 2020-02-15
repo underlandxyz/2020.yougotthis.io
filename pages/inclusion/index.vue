@@ -11,7 +11,7 @@
           <ul>
             <li>Completely free ticket</li>
             <li>You still have to cover the cost of travel (and accommodation if there is any).</li>
-            <li>Applications for our third round of ticket-only scholarships are now open.</li>
+            <li>Applications for our third round of ticket-only scholarships are being extended into the New Year but spaces will run out so apply soon!.</li>
           </ul>
         </div>
         <div class="type">
