@@ -3,9 +3,11 @@
     <span class="dates">January 18 2020. Birmingham, UK.</span>
     <div class="meta">
       <!-- <n-link to='/sponsor'>Sponsor</n-link> -->
-      <a href='mailto:ygt@underland.events'>Email Us</a>
-      <a href="https://twitter.com/search?q=%23YouGotThisConf">#YouGotThisConf</a>
-      <a href='https://underland.events'>Underland Events</a>
+      <a href="mailto:kevin@yougotthis.io">Email Us</a>
+      <a href="https://twitter.com/search?q=%23YouGotThisConf"
+        >#YouGotThisConf</a
+      >
+      <a href="https://twitter.com/underlandevents">Underland Events</a>
     </div>
   </div>
 </template>
@@ -29,5 +31,4 @@
     display: none;
   }
 }
-
 </style>
